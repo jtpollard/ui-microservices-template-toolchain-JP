@@ -26,8 +26,8 @@ EXPOSE 80
 ENV A8_SERVICE=UI:v1
 ENV A8_ENDPOINT_PORT=80
 ENV A8_ENDPOINT_TYPE=http
-ENV A8_REGISTRY_URL=http://dev-a8-registry-CBJ-123.mybluemix.net
-ENV A8_CONTROLLER_URL=http://dev-a8-controller-CBJ-123.mybluemix.net
+ENV A8_REGISTRY_URL=http://dev-a8-registry-JTP-256.mybluemix.net
+ENV A8_CONTROLLER_URL=http://dev-a8-controller-JTP-256.mybluemix.net
 
 RUN mkdir -p /app/www
 COPY ./ /app/www/
